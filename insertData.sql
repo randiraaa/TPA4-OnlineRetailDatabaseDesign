@@ -1,6 +1,6 @@
 -- Table Customers
 INSERT INTO customers (customer_name, email, phone) VALUES
-("Randi", "randi@gmail.com", "085603553044"),
+("Randi", "randi24@gmail.com", "085603553044"),
 ("Anggia", "anggia@gmail.com", "085603553098"),
 ("Yusuf", "yusuf@gmail.com", "085603553066"),
 ("Asep", "asep@gmail.com", "085603553064"),
@@ -9,9 +9,7 @@ INSERT INTO customers (customer_name, email, phone) VALUES
 ("Agus", "agus@gmail.com", "085603553064"),
 ("Cintia", "cintia@gmail.com", "085603553078"),
 ("Diny", "diny@gmail.com", "085603553054"),
-("Alex", "alex@gmail.com", "085603553089")
-
-SELECT * FROM customers;
+("Alex", "alex@gmail.com", "085603553089");
 
 -- Table Categories
 INSERT INTO categories (category_name) VALUES
@@ -24,9 +22,7 @@ INSERT INTO categories (category_name) VALUES
 ("Parfum"),
 ("Topi"),
 ("Kecantikan"),
-("Sendal")
-
-SELECT * FROM categories;
+("Sendal");
 
 -- Table Products
 INSERT INTO products (product_name, price, category_id) VALUES
@@ -60,9 +56,7 @@ INSERT INTO products (product_name, price, category_id) VALUES
 ("Conclear", 35000, 9),
 ("Sandal Tali", 50000, 10),
 ("Sandal Santai", 50000, 10),
-("Sandal Flat", 50000, 10)
-
-SELECT * FROM products;
+("Sandal Flat", 50000, 10);
 
 -- Table Transactions
 INSERT INTO transactions (customer_id, transaction_date, product_id, product_name, price) VALUES
@@ -79,9 +73,7 @@ INSERT INTO transactions (customer_id, transaction_date, product_id, product_nam
 (3, '2023-05-22', 24, "Topi Fedora", 30000),
 (3, '2023-05-22', 24, "Topi Fedora", 30000),
 (3, '2023-05-22', 24, "Topi Fedora", 30000),
-(3, '2023-05-22', 2, "Baju Lengan Panjang", 50000)
-
-SELECT * FROM transactions;
+(3, '2023-05-22', 2, "Baju Lengan Panjang", 50000);
 
 -- Table Transaction Items
 INSERT INTO trans_items (transaction_id, product_id, quantity) VALUES
@@ -98,6 +90,4 @@ INSERT INTO trans_items (transaction_id, product_id, quantity) VALUES
 (11, 24, 1),
 (12, 24, 1),
 (13, 24, 1),
-(14, 2, 1)
-
-SELECT * FROM trans_items;
+(14, 2, 1);

@@ -1,5 +1,5 @@
 -- Mengubah data pada tabel Customers
-UPDATE customers SET email = 'randira24@gmail.com' WHERE customer_id = 1;
+UPDATE customers SET email = 'randinur@gmail.com' WHERE customer_id = 1;
 
 -- Mengubah data pada tabel Products
 UPDATE products SET price = 200000 WHERE product_id = 5;
